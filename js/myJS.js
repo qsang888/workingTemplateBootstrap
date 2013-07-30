@@ -4,11 +4,11 @@ function setUpTangle () {
 			{
 				initialize: function () {
 					this.bags = 1;
-            		this.calorie_per_apple = 116;
+            		this.calorie_per_apple = 117;
     
 				},
 				update: function () {
-					this.apples = this.bags * 4;
+					this.apples = this.bags * 9;
     				this.total_calaries = this.calorie_per_apple*this.apples;
     				
 				}
